@@ -16,12 +16,12 @@ afterEvaluate {
 }
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 28
 
     defaultConfig {
         minSdkVersion 14
         //noinspection OldTargetApi
-        targetSdkVersion 30
+        targetSdkVersion 28
         versionCode 371
         versionName "3.7.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

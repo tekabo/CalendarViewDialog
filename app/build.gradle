@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 28
 
     defaultConfig {
         applicationId "com.door.calendardialog"
         minSdk 16
-        targetSdk 31
+        targetSdk 28
         versionCode 1
         versionName "1.0"
 
