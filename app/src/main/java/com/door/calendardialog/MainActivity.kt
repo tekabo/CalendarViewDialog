@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val dialog =  CalendarDialog(this)
         dialog.setSelectedDate(2009,11,3)
+
         dialog.setCalendarDialogSelectListener(object :CalendarDialog.CalendarDialogSelectListener{
             override fun onDateSelected(date: String) {
                Toast.makeText(applicationContext,date,Toast.LENGTH_LONG).show()
