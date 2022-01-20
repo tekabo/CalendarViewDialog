@@ -1,8 +1,8 @@
 package com.door.calendardialog
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.star.calendarview.dialog.CalendarDialog
 
 class MainActivity : AppCompatActivity() {
@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val dialog =  CalendarDialog(this)
         dialog.setSelectedDate(2009,11,3)
-
         dialog.setCalendarDialogSelectListener(object :CalendarDialog.CalendarDialogSelectListener{
             override fun onDateSelected(date: String) {
                Toast.makeText(applicationContext,date,Toast.LENGTH_LONG).show()
